@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Add this import to your CSS file or index.js */
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+/* Your custom styles go here */
+.hero-background {
+  background-image: url(../../homeopathy.webp); /* Adjust the path based on your project structure */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+  .hover_image {
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.hover_image:hover {
+    transform: scale(1.1); /* Increase size by 10% */
+}
