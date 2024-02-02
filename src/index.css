@@ -6,12 +6,7 @@
 
 
 /* Your custom styles go here */
-.hero-background {
-  background-image: url(../../homeopathy.webp); /* Adjust the path based on your project structure */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 
   .hover_image {
